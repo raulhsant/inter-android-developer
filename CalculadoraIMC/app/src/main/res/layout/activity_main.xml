@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/IMC"
+        android:textSize="44sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/green" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        style="@style/input_style"
+        android:hint="@string/insert_weight_hint"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_height="wrap_content"
+        style="@style/input_style"
+        android:hint="@string/insert_height_hint"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="16sp"
+        android:padding="16dp" />
+
+</LinearLayout>

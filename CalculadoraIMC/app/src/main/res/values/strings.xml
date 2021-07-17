@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="IMC">IMC</string>
+    <string name="insert_weight_hint">Peso em Kg (ex: 70)</string>
+    <string name="calculate">Calcular!</string>
+    <string name="insert_height_hint">Altura em cm (ex: 165)</string>
+</resources>
