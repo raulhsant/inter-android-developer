@@ -1,0 +1,3 @@
+[submodule "BusinessCard"]
+	path = BusinessCard
+	url = git@github.com:raulhsant/business-card-app.git
