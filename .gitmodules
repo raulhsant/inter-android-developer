@@ -1,3 +1,6 @@
 [submodule "BusinessCard"]
 	path = BusinessCard
 	url = git@github.com:raulhsant/business-card-app.git
+[submodule "GithubRepositories"]
+	path = GithubRepositories
+	url = git@github.com:raulhsant/GithubRepositoriesAndroidApp.git
